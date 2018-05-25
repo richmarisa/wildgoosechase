@@ -1,0 +1,15 @@
+/* Drupal-Specific Styles
+   ************************************ */
+button .glyphicon-log-in, button .glyphicon-eye-open {
+  display: none;
+}
+
+#main nav.tabs {
+  margin-bottom: 1.5em;
+}
+
+.navbar-static-top {
+  z-index: auto;
+}
+
+/*# sourceMappingURL=drupal.css.map */

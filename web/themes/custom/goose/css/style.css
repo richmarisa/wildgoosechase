@@ -1,0 +1,42 @@
+body {
+	background-color: #fff;
+  font-size: 12pt;
+  font-family: Palatino;
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 0px;
+  border: 1px solid transparent;
+}
+
+.page-header {
+  margin-top: 15px;
+}
+
+#search-block-form {
+  margin-top: 15px;
+}
+
+/* put the header caption on the image */
+
+.views-field-field-header-image {
+    position: relative;
+}
+
+/* Bottom right text */
+.field--name-field-header-caption {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-size:24pt;
+    padding-left: 20px;
+    padding-right: 20px;
+}
