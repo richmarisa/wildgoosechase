@@ -1,0 +1,13 @@
+<?php
+
+function goose_preprocess_node(&$variables) {
+  if ($variables['display_submitted']) {
+
+    // Getting the node creation timestamp from the node object.
+    $date = $variables['node']->getCreatedTime();
+
+    // Here you can use drupal's format_date() function, or some custom php date formatting.
+    $variables['date'] = format_date($date, 'custom', 'F j, Y');
+  }
+}
+
