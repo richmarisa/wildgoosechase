@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2cb6941793ea797ca312b807abbba9fe",
+    "content-hash": "702fe59963dfd40653ec61d0567878ba",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3301,6 +3301,53 @@
             "homepage": "https://www.drupal.org/project/entity_reference_revisions",
             "support": {
                 "source": "http://cgit.drupalcode.org/entity_reference_revisions"
+            }
+        },
+        {
+            "name": "drupal/exif_orientation",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/exif_orientation",
+                "reference": "8.x-1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/exif_orientation-8.x-1.0.zip",
+                "reference": "8.x-1.0",
+                "shasum": "c233610a675e663660708f175aab8d90f56dfd2b"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.0",
+                    "datestamp": "1525963087",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "mglaman",
+                    "homepage": "https://www.drupal.org/user/2416470"
+                }
+            ],
+            "description": "Rotates images per their EXIF Orientation",
+            "homepage": "https://www.drupal.org/project/exif_orientation",
+            "support": {
+                "source": "http://cgit.drupalcode.org/exif_orientation"
             }
         },
         {
